@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Boon400';
+    src: url('../fonts/woff/boon-400.woff') format('woff'),
+         url('../fonts/otf/boon-400.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Boon700';
+    src: url('../fonts/woff/boon-700.woff') format('woff'),
+         url('../fonts/otf/boon-700.otf') format('opentype');
+}
+body {
+    font-family: "Boon400", sans-serif;
+    font-weight: 400;
+}
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Boon700", sans-serif;
+    font-weight: 700;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #a21d2a;
+    font-size: 1.2em;
+    border-color: #58050d;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    -webkit-transition: 0.2s; /* Safari */
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #f2c556;
+}
+.navbar-inverse .navbar-brand {
+    text-transform: uppercase;
+    color: #f2c556;
+    font-family: "Boon700";
+    font-weight: 700;
+    font-size: 1.3em;
+    -webkit-transition: 0.2s; /* Safari */
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.navbar-inverse .navbar-toggle {
+    border: 0;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #711111;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #690b0b;
+}
+.header {
+    text-align: center;
+    padding: 70px 30px 0 30px;
+}
+.header img {
+    width: 100%;
+    height: auto;
+}
+.header h1 {
+    margin-top: 0;
+}
+.content {
+    padding: 50px 30px 80px 30px;
+}
+.content h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+.content p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.content p a {
+    -webkit-transition: 0.2s; /* Safari */
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.content p a:link,
+.content p a:visited {
+    color: #e62438;
+    text-decoration: none;
+}
+.content p a:hover,
+.content p a:active {
+    color: #ffb600;
+    text-decoration: none;
+}
+.img-preview-block {
+    margin-bottom: 50px;
+}
+.img-preview-area {
+    margin-bottom: 15px;
+}
+.adjust-panel {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#img-canvas {
+    width: 100%;
+    height: auto;
+    margin-bottom: -7px;
+}
+#loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 45%;
+    display: none;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+#img-result {
+    position: relative;
+    margin-bottom: 15px;
+}
+#img-result img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#step-1,
+#step-2,
+#step-3 {
+    display: none;
+}
+.overlay-selector button {
+    margin-bottom: 15px;
+    line-height: 1.15em;
+}
+.overlay-selector-header {
+    text-align: center;
+}
+.overlay-selector-header hr {
+    margin-bottom: -30px;
+    border-color: #bbb;
+}
+.overlay-selector-header h3 {
+    background: #fff;
+    display: inline-block;
+    padding: 0 15px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+.btn-primary {
+    background-color: #840e1a;
+    border: 0;
+    box-shadow: 0 4px 0 0 #3c040a;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary {
+    background-color: #a21d2a;
+    border: 0;
+    box-shadow: 0 4px 0 0 #3c040a;
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+    background: #a21d2a;
+    border: 0;
+    box-shadow: none;
+    margin-bottom: -4px;
+    margin-top: 4px;
+    padding-top: 21px;
+}
+.btn-primary.disabled,
+.btn-primary.disabled.active,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:active,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled],
+.btn-primary[disabled].active,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:active,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary,
+fieldset[disabled] .btn-primary.active,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:active,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+    background-color: #e8838d;
+    border: 0;
+    box-shadow: 0 4px 0 0 #d87272;
+}
+.btn-lg {
+    font-size: 1.5em;
+    -webkit-transition: 0.2s; /* Safari */
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+    padding-top: 17px;
+}
+.btn-lg:hover {
+    font-size: 1.65em;
+}
+.btn-default {
+    background-color: #efc14f;
+    border: 0;
+    box-shadow: 0 4px 0 0 #d6aa40;
+    font-size: 1.25em;
+    -webkit-transition: 0.2s; /* Safari */
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+    padding-top: 12px;
+}
+.btn-default:hover,
+.btn-default:focus,
+.open > .dropdown-toggle.btn-default {
+    background-color: #ffda80;
+    border: 0;
+    box-shadow: 0 4px 0 0 #d6aa40; 
+}
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+    background: #ffda80;
+    border: 0;
+    box-shadow: none;
+    margin-bottom: 11px;
+    margin-top: 4px;
+    padding-top: 12px;
+}
+.facebook-section {
+    margin-top: 15px;
+}
+.btn-facebook {
+    background-color: #2d4373;
+    border: 0;
+    box-shadow: 0 4px 0 0 #152548;
+}
+.btn-facebook:hover,
+.btn-facebook:focus,
+.open > .dropdown-toggle.btn-facebook {
+    background-color: #3b5998;
+    border: 0;
+    box-shadow: 0 4px 0 0 #152548;
+}
+.btn-facebook.active.focus,
+.btn-facebook.active:focus,
+.btn-facebook.active:hover,
+.btn-facebook:active.focus,
+.btn-facebook:active:focus,
+.btn-facebook:active:hover,
+.open>.dropdown-toggle.btn-facebook.focus,
+.open>.dropdown-toggle.btn-facebook:focus,
+.open>.dropdown-toggle.btn-facebook:hover {
+    background: #3b5998;
+    border: 0;
+    box-shadow: none;
+    margin-bottom: -4px;
+    margin-top: 4px;
+    padding-top: 21px;
+}
+.btn-facebook.disabled,
+.btn-facebook.disabled.active,
+.btn-facebook.disabled.focus,
+.btn-facebook.disabled:active,
+.btn-facebook.disabled:focus,
+.btn-facebook.disabled:hover,
+.btn-facebook[disabled],
+.btn-facebook[disabled].active,
+.btn-facebook[disabled].focus,
+.btn-facebook[disabled]:active,
+.btn-facebook[disabled]:focus,
+.btn-facebook[disabled]:hover,
+fieldset[disabled] .btn-facebook,
+fieldset[disabled] .btn-facebook.active,
+fieldset[disabled] .btn-facebook.focus,
+fieldset[disabled] .btn-facebook:active,
+fieldset[disabled] .btn-facebook:focus,
+fieldset[disabled] .btn-facebook:hover {
+    background-color: #9db2e0;
+    border: 0;
+    box-shadow: 0 4px 0 0 #3b5998;
+}
+.p-no-margin {
+    margin-top: -25px;
+}
