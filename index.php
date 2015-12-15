@@ -155,6 +155,9 @@ ga('send', 'pageview');
 						<div class="<?php echo $column_class; ?>">
 							<button id="<?php echo $tag->id; ?>" class="btn btn-default btn-block">
 								<b><?php echo $tag->title; ?></b>
+								<?php if ( $tag->description ): ?>
+									<br><small><?php echo $tag->description; ?></small>
+								<?php endif; ?>
 							</button>
 						</div>
 					<?php endforeach; ?>
