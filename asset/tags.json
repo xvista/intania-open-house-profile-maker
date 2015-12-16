@@ -7,92 +7,92 @@
 		},
 		"tags": [
 			{
-				"id": "btn-team-etc-1",
+				"id": "etc-1",
 				"title": "#ทีมนายช่าง",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-2",
+				"id": "etc-2",
 				"title": "#ทีมบัณฑิต",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-3",
+				"id": "etc-3",
 				"title": "#ทีมงานคุณภาพ",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-4",
+				"id": "etc-4",
 				"title": "#ทีมวิศวฯ",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-5",
+				"id": "etc-5",
 				"title": "#ทีมอยากมีแฟนวิศวฯ",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-6",
+				"id": "etc-6",
 				"title": "#ทีมPAT3",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-7",
+				"id": "etc-7",
 				"title": "#ทีมเสื้อช็อป",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-8",
+				"id": "etc-8",
 				"title": "#ทีมอยากเป็นวิศวฯ",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-9",
+				"id": "etc-9",
 				"title": "#ทีมแฟนวิศวฯ",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-10",
+				"id": "etc-10",
 				"title": "#ทีมไหนไฟแรงเฟร่อ",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-11",
+				"id": "etc-11",
 				"title": "#ทีมSTRONG",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-12",
+				"id": "etc-12",
 				"title": "#ทีมวิศวฯอยากมีแฟน",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-13",
+				"id": "etc-13",
 				"title": "#ทีมอะไรดี",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-14",
+				"id": "etc-14",
 				"title": "#ทีมคนหล่อ",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-15",
+				"id": "etc-15",
 				"title": "#ทีมสาวสวย",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-16",
+				"id": "etc-16",
 				"title": "#ทีมวิศวฯโสด",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-17",
+				"id": "etc-17",
 				"title": "#ทีมคนเหงา",
 				"description": ""
 			},
 			{
-				"id": "btn-team-etc-18",
+				"id": "etc-18",
 				"title": "#ทีมอะไรๆก็อยากเป็นวิศวฯ",
 				"description": ""
 			}
@@ -106,87 +106,87 @@
 		},
 		"tags": [
 			{
-				"id": "btn-team-ce",
+				"id": "ce",
 				"title": "#TeamCE",
 				"description": "(วิศวกรรมโยธา)"
 			},
 			{
-				"id": "btn-team-ee",
+				"id": "ee",
 				"title": "#TeamEE",
 				"description": "(วิศวกรรมไฟฟ้า)"
 			},
 			{
-				"id": "btn-team-me",
+				"id": "me",
 				"title": "#TeamME",
 				"description": "(วิศวกรรมเครื่องกล)"
 			},
 			{
-				"id": "btn-team-ae",
+				"id": "ae",
 				"title": "#TeamAE",
 				"description": "(วิศวกรรมยานยนต์)"
 			},
 			{
-				"id": "btn-team-mr",
+				"id": "mr",
 				"title": "#TeamMR",
 				"description": "(วิศวกรรมเรือ)"
 			},
 			{
-				"id": "btn-team-ie",
+				"id": "ie",
 				"title": "#TeamIE",
 				"description": "(วิศวกรรมMT)"
 			},
 			{
-				"id": "btn-team-mt",
+				"id": "mt",
 				"title": "#TeamMT",
 				"description": "(วิศวกรรมโลหการและวัสดุ)"
 			},
 			{
-				"id": "btn-team-pe",
+				"id": "pe",
 				"title": "#TeamPE",
 				"description": "(วิศวกรรมปิโครเลี่ยม)"
 			},
 			{
-				"id": "btn-team-mn",
+				"id": "mn",
 				"title": "#TeamMN",
 				"description": "(วิศวกรรมทรัพยากรธรณี)"
 			},
 			{
-				"id": "btn-team-sv",
+				"id": "sv",
 				"title": "#TeamSV",
 				"description": "(วิศวกรรมสำรวจ)"
 			},
 			{
-				"id": "btn-team-env",
+				"id": "env",
 				"title": "#TeamENV",
 				"description": "(วิศวกรรมสิ่งแวดล้อม)"
 			},
 			{
-				"id": "btn-team-cp",
+				"id": "cp",
 				"title": "#TeamCP",
 				"description": "(วิศวกรรมคอมพิวเตอร์)"
 			},
 			{
-				"id": "btn-team-che",
+				"id": "che",
 				"title": "#TeamCHE",
 				"description": "(วิศวกรรมเคมี)"
 			},
 			{
-				"id": "btn-team-nano",
+				"id": "nano",
 				"title": "#TeamNANO",
 				"description": "(วิศวกรรมนาโน)"
 			},
 			{
-				"id": "btn-team-adme",
+				"id": "adme",
 				"title": "#TeamADME",
 				"description": "(วิศวกรรมการออกแบบและการผลิตยานยนต์)"
 			},
 			{
-				"id": "btn-team-ice",
+				"id": "ice",
 				"title": "#TeamICE",
 				"description": "(วิศวกรรมสารสนเทศและการสื่อสาร)"
 			},
 			{
-				"id": "btn-team-aero",
+				"id": "aero",
 				"title": "#TeamAERO",
 				"description": "(วิศวกรรมอากาศยาน)"
 			}
@@ -200,47 +200,47 @@
 		},
 		"tags": [
 			{
-				"id": "btn-team-club-1",
+				"id": "club-1",
 				"title": "#TeamClique",
 				"description": "(ชมรม Clique)"
 			},
 			{
-				"id": "btn-team-club-2",
+				"id": "club-2",
 				"title": "#TeamEIC",
 				"description": "(ชมรมนักประดิษฐ์วิศวกรรม)"
 			},
 			{
-				"id": "btn-team-club-3",
+				"id": "club-3",
 				"title": "#ทีมชวก.",
 				"description": "(ชุมนุมวิชาการ)"
 			},
 			{
-				"id": "btn-team-club-4",
+				"id": "club-4",
 				"title": "#TeamFE",
 				"description": "(ค่าย FECamp)"
 			},
 			{
-				"id": "btn-team-club-5",
+				"id": "club-5",
 				"title": "#TeamFormula",
 				"description": "(Rapidamente Formula Club)"
 			},
 			{
-				"id": "btn-team-club-6",
+				"id": "club-6",
 				"title": "#ทีมลานเกียร์",
 				"description": "(ค่ายลานเกียร์)"
 			},
 			{
-				"id": "btn-team-club-7",
+				"id": "club-7",
 				"title": "#TeamThinc.",
 				"description": "(ชมรม Thinc.)"
 			},
 			{
-				"id": "btn-team-club-8",
+				"id": "club-8",
 				"title": "#TeamVATA",
 				"description": "(ชมรมวาทะและศิลปะบันเทิง)"
 			},
 			{
-				"id": "btn-team-club-9",
+				"id": "club-9",
 				"title": "#TeamVESC",
 				"description": "(ค่ายยุววิศวกรบพิธ)"
 			}
