@@ -1,0 +1,249 @@
+[
+	{
+		"meta": {
+			"title": "ทั่วไป",
+			"description": "Lorem ipsum",
+			"class": "col-md-4"
+		},
+		"tags": [
+			{
+				"id": "btn-team-etc-1",
+				"title": "#ทีมนายช่าง",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-2",
+				"title": "#ทีมบัณฑิต",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-3",
+				"title": "#ทีมงานคุณภาพ",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-4",
+				"title": "#ทีมวิศวฯ",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-5",
+				"title": "#ทีมอยากมีแฟนวิศวฯ",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-6",
+				"title": "#ทีมPAT3",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-7",
+				"title": "#ทีมเสื้อช็อป",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-8",
+				"title": "#ทีมอยากเป็นวิศวฯ",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-9",
+				"title": "#ทีมแฟนวิศวฯ",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-10",
+				"title": "#ทีมไหนไฟแรงเฟร่อ",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-11",
+				"title": "#ทีมSTRONG",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-12",
+				"title": "#ทีมวิศวฯอยากมีแฟน",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-13",
+				"title": "#ทีมอะไรดี",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-14",
+				"title": "#ทีมคนหล่อ",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-15",
+				"title": "#ทีมสาวสวย",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-16",
+				"title": "#ทีมวิศวฯโสด",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-17",
+				"title": "#ทีมคนเหงา",
+				"description": ""
+			},
+			{
+				"id": "btn-team-etc-18",
+				"title": "#ทีมอะไรๆก็อยากเป็นวิศวฯ",
+				"description": ""
+			}
+		]
+	},
+	{
+		"meta": {
+			"title": "ภาควิชา/หลักสูตรในคณะวิศวกรรมศาสตร์",
+			"description": "Lorem ipsum",
+			"class": "col-md-6"
+		},
+		"tags": [
+			{
+				"id": "btn-team-ce",
+				"title": "#TeamCE",
+				"description": "(วิศวกรรมโยธา)"
+			},
+			{
+				"id": "btn-team-ee",
+				"title": "#TeamEE",
+				"description": "(วิศวกรรมไฟฟ้า)"
+			},
+			{
+				"id": "btn-team-me",
+				"title": "#TeamME",
+				"description": "(วิศวกรรมเครื่องกล)"
+			},
+			{
+				"id": "btn-team-ae",
+				"title": "#TeamAE",
+				"description": "(วิศวกรรมยานยนต์)"
+			},
+			{
+				"id": "btn-team-mr",
+				"title": "#TeamMR",
+				"description": "(วิศวกรรมเรือ)"
+			},
+			{
+				"id": "btn-team-ie",
+				"title": "#TeamIE",
+				"description": "(วิศวกรรมMT)"
+			},
+			{
+				"id": "btn-team-mt",
+				"title": "#TeamMT",
+				"description": "(วิศวกรรมโลหการและวัสดุ)"
+			},
+			{
+				"id": "btn-team-pe",
+				"title": "#TeamPE",
+				"description": "(วิศวกรรมปิโครเลี่ยม)"
+			},
+			{
+				"id": "btn-team-mn",
+				"title": "#TeamMN",
+				"description": "(วิศวกรรมทรัพยากรธรณี)"
+			},
+			{
+				"id": "btn-team-sv",
+				"title": "#TeamSV",
+				"description": "(วิศวกรรมสำรวจ)"
+			},
+			{
+				"id": "btn-team-env",
+				"title": "#TeamENV",
+				"description": "(วิศวกรรมสิ่งแวดล้อม)"
+			},
+			{
+				"id": "btn-team-cp",
+				"title": "#TeamCP",
+				"description": "(วิศวกรรมคอมพิวเตอร์)"
+			},
+			{
+				"id": "btn-team-che",
+				"title": "#TeamCHE",
+				"description": "(วิศวกรรมเคมี)"
+			},
+			{
+				"id": "btn-team-nano",
+				"title": "#TeamNANO",
+				"description": "(วิศวกรรมนาโน)"
+			},
+			{
+				"id": "btn-team-adme",
+				"title": "#TeamADME",
+				"description": "(วิศวกรรมการออกแบบและการผลิตยานยนต์)"
+			},
+			{
+				"id": "btn-team-ice",
+				"title": "#TeamICE",
+				"description": "(วิศวกรรมสารสนเทศและการสื่อสาร)"
+			},
+			{
+				"id": "btn-team-aero",
+				"title": "#TeamAERO",
+				"description": "(วิศวกรรมอากาศยาน)"
+			}
+		]
+	},
+	{
+		"meta": {
+			"title": "ชมรมของคณะวิศวกรรมศาสตร์ในงาน Intania Open House",
+			"description": "Lorem ipsum",
+			"class": "col-md-4"
+		},
+		"tags": [
+			{
+				"id": "btn-team-club-1",
+				"title": "#TeamClique",
+				"description": "(ชมรม Clique)"
+			},
+			{
+				"id": "btn-team-club-2",
+				"title": "#TeamEIC",
+				"description": "(ชมรมนักประดิษฐ์วิศวกรรม)"
+			},
+			{
+				"id": "btn-team-club-3",
+				"title": "#ทีมชวก.",
+				"description": "(ชุมนุมวิชาการ)"
+			},
+			{
+				"id": "btn-team-club-4",
+				"title": "#TeamFE",
+				"description": "(ค่าย FECamp)"
+			},
+			{
+				"id": "btn-team-club-5",
+				"title": "#TeamFormula",
+				"description": "(Rapidamente Formula Club)"
+			},
+			{
+				"id": "btn-team-club-6",
+				"title": "#ทีมลานเกียร์",
+				"description": "(ค่ายลานเกียร์)"
+			},
+			{
+				"id": "btn-team-club-7",
+				"title": "#TeamThinc.",
+				"description": "(ชมรม Thinc.)"
+			},
+			{
+				"id": "btn-team-club-8",
+				"title": "#TeamVATA",
+				"description": "(ชมรมวาทะและศิลปะบันเทิง)"
+			},
+			{
+				"id": "btn-team-club-9",
+				"title": "#TeamVESC",
+				"description": "(ค่ายยุววิศวกรบพิธ)"
+			}
+		]
+	}
+]
