@@ -139,18 +139,18 @@
 						</div>
 					</div>
 
-				<div class="row overlay-selector">
-					<?php foreach( $tag_info->tags as $tag ): ?>
-						<div class="<?php echo $column_class; ?>">
-							<button id="<?php echo $tag->id; ?>" class="btn btn-default btn-block">
-								<b><?php echo $tag->title; ?></b>
-								<?php if ( $tag->description ): ?>
-									<br><small><?php echo $tag->description; ?></small>
-								<?php endif; ?>
-							</button>
-						</div>
-					<?php endforeach; ?>
-				</div>
+					<div class="row overlay-selector">
+						<?php foreach( $tag_info->tags as $tag ): ?>
+							<div class="<?php echo $column_class; ?>">
+								<button id="btn-team-<?php echo $tag->id; ?>" data-tagid="<?php echo $tag->id; ?>" class="intania-team btn btn-default btn-block">
+									<b><?php echo $tag->title; ?></b>
+									<?php if ( $tag->description ): ?>
+										<br><small><?php echo $tag->description; ?></small>
+									<?php endif; ?>
+								</button>
+							</div>
+						<?php endforeach; ?>
+					</div>
 			<?php endforeach; ?>
 
 		</div>

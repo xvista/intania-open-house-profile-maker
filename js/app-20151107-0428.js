@@ -165,50 +165,9 @@ function checkRequirement() {
     }
 }
 
-$('#btn-team-etc-1').click(function(){ overlayImage('etc-1') });
-$('#btn-team-etc-2').click(function(){ overlayImage('etc-2') });
-$('#btn-team-etc-3').click(function(){ overlayImage('etc-3') });
-$('#btn-team-etc-4').click(function(){ overlayImage('etc-4') });
-$('#btn-team-etc-5').click(function(){ overlayImage('etc-5') });
-$('#btn-team-etc-6').click(function(){ overlayImage('etc-6') });
-$('#btn-team-etc-7').click(function(){ overlayImage('etc-7') });
-$('#btn-team-etc-8').click(function(){ overlayImage('etc-8') });
-$('#btn-team-etc-9').click(function(){ overlayImage('etc-9') });
-$('#btn-team-etc-10').click(function(){ overlayImage('etc-10') });
-$('#btn-team-etc-11').click(function(){ overlayImage('etc-11') });
-$('#btn-team-etc-12').click(function(){ overlayImage('etc-12') });
-$('#btn-team-etc-13').click(function(){ overlayImage('etc-13') });
-$('#btn-team-etc-14').click(function(){ overlayImage('etc-14') });
-$('#btn-team-etc-15').click(function(){ overlayImage('etc-15') });
-$('#btn-team-etc-16').click(function(){ overlayImage('etc-16') });
-$('#btn-team-etc-17').click(function(){ overlayImage('etc-17') });
-$('#btn-team-etc-18').click(function(){ overlayImage('etc-18') });
-$('#btn-team-ce').click(function(){ overlayImage('ce') });
-$('#btn-team-ee').click(function(){ overlayImage('ee') });
-$('#btn-team-me').click(function(){ overlayImage('me') });
-$('#btn-team-ae').click(function(){ overlayImage('ae') });
-$('#btn-team-mr').click(function(){ overlayImage('mr') });
-$('#btn-team-ie').click(function(){ overlayImage('ie') });
-$('#btn-team-mt').click(function(){ overlayImage('mt') });
-$('#btn-team-pe').click(function(){ overlayImage('pe') });
-$('#btn-team-mn').click(function(){ overlayImage('mn') });
-$('#btn-team-sv').click(function(){ overlayImage('sv') });
-$('#btn-team-env').click(function(){ overlayImage('env') });
-$('#btn-team-cp').click(function(){ overlayImage('cp') });
-$('#btn-team-che').click(function(){ overlayImage('che') });
-$('#btn-team-nano').click(function(){ overlayImage('nano') });
-$('#btn-team-adme').click(function(){ overlayImage('adme') });
-$('#btn-team-ice').click(function(){ overlayImage('ice') });
-$('#btn-team-aero').click(function(){ overlayImage('aero') });
-$('#btn-team-club-1').click(function(){ overlayImage('club-1') });
-$('#btn-team-club-2').click(function(){ overlayImage('club-2') });
-$('#btn-team-club-3').click(function(){ overlayImage('club-3') });
-$('#btn-team-club-4').click(function(){ overlayImage('club-4') });
-$('#btn-team-club-5').click(function(){ overlayImage('club-5') });
-$('#btn-team-club-6').click(function(){ overlayImage('club-6') });
-$('#btn-team-club-7').click(function(){ overlayImage('club-7') });
-$('#btn-team-club-8').click(function(){ overlayImage('club-8') });
-$('#btn-team-club-9').click(function(){ overlayImage('club-9') });
+$('.intania-team').click(function(){
+	overlayImage( $(this).data('tagid') );
+});
 
 $('#btn-rotate-ccw').click(function(){ $('#img-preview').cropper('rotate', -90); });
 $('#btn-rotate-cw').click(function(){ $('#img-preview').cropper('rotate', 90); });
