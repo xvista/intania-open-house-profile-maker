@@ -142,12 +142,12 @@ function overlayImage(type) {
         case 'club-9': filename += 'club/vesc.png'; break;
     }
     var destContext = $('#img-canvas')[0].getContext('2d');
+    destContext.clearRect(0, 0, $('#img-canvas')[0].width, $('#img-canvas')[0].height);
     destContext.drawImage(oriContext, 0, 0, $('#img-canvas')[0].width, $('#img-canvas')[0].height);
     if (filename != 'img/overlay/') {
         var img = new Image();
         img.src = filename;
         img.onload = function() {
-            destContext.drawImage(oriContext, 0, 0, $('#img-canvas')[0].width, $('#img-canvas')[0].height);
             destContext.drawImage(img, 0, 0, $('#img-canvas')[0].width, $('#img-canvas')[0].height);
         }
         $('#btn-download').prop('disabled', false);
