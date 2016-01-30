@@ -147,6 +147,7 @@ function overlayImage(type) {
         var img = new Image();
         img.src = filename;
         img.onload = function() {
+            destContext.drawImage(oriContext, 0, 0, $('#img-canvas')[0].width, $('#img-canvas')[0].height);
             destContext.drawImage(img, 0, 0, $('#img-canvas')[0].width, $('#img-canvas')[0].height);
         }
         $('#btn-download').prop('disabled', false);

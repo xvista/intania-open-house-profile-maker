@@ -30,6 +30,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- PLEASE EDIT YOUR METADATA HERE, OTHERWISE IT WILL SHOW METADATA OF MY EVENT INSTEAD -->
 	<meta name="description" content="มาสร้างรูปโปรไฟล์ Intania Open House กันเถอะ! แล้วอย่าลืมนะ 15-17 พฤศจิกายน 2558 ณ คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย มาเถอะ อยากเจอ">
 	<meta name="author" content="Chula Engineering">
 	<meta property="og:url" content="http://xvista.in.th/intaniaopenhouse/profile/">
@@ -37,6 +39,7 @@
 	<meta property="og:title" content="Intania Open House | Profile Picture Maker">
 	<meta property="og:description" content="มาสร้างรูปโปรไฟล์ Intania Open House กันเถอะ! แล้วอย่าลืมนะ 15-17 พฤศจิกายน 2558 ณ คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย มาเถอะ อยากเจอ">
 	<meta property="og:image" content="http://xvista.in.th/intaniaopenhouse/profile/img/fbpic.png">
+	<!-- END OF METADATA SECTION -->
 
 	<title>Intania Open House | Profile Picture Maker</title>
 
